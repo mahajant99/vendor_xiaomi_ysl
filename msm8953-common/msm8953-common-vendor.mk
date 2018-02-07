@@ -653,4 +653,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     WfdCommon \
     QPerformance \
-    UxPerformance
+    UxPerformance \
+    chargeonlymode
+	
