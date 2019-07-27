@@ -669,6 +669,5 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     TimeService \
     WfdCommon \
-    chargeonlymode \
     QPerformance \
     UxPerformance
