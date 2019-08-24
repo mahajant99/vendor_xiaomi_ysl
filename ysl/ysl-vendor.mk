@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/ysl/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
+    vendor/xiaomi/ysl/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/xiaomi/ysl/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/ysl/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
     vendor/xiaomi/ysl/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
@@ -590,8 +591,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ysl/proprietary/vendor/lib/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvendor.goodix.hardware.fingerprint@1.0.so \
     vendor/xiaomi/ysl/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
     vendor/xiaomi/ysl/proprietary/vendor/lib/libvidhance_gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance_gyro.so \
-    vendor/xiaomi/ysl/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so
+    vendor/xiaomi/ysl/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
+    vendor/xiaomi/ysl/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
+    vendor/xiaomi/ysl/proprietary/vendor/lib64/libthermalfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalfeature.so
 
 PRODUCT_PACKAGES += \
     libarcsoft_beautyshot_exin \
+    libthermalclient \
     FingerprintExtensionService
