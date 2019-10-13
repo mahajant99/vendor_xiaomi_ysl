@@ -5,6 +5,6 @@ service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.
     class late_start
     user system
 # modify by zhoudan for fingerprint
-    group system input sdcard_rw
+    group system uhid input sdcard_rw
     writepid /dev/cpuset/system-background/tasks
     
