@@ -20,3 +20,15 @@ dex_import {
     owner: "xiaomi",
     jars: ["proprietary/framework/WfdCommon.jar"],
 }
+
+dex_import {
+    name: "QPerformance",
+    owner: "xiaomi",
+    jars: ["proprietary/framework/QPerformance.jar"],
+}
+
+dex_import {
+    name: "UxPerformance",
+    owner: "xiaomi",
+    jars: ["proprietary/framework/UxPerformance.jar"]
+}
