@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libmacikin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacikin.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
@@ -56,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib64/libbfqio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbfqio.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
